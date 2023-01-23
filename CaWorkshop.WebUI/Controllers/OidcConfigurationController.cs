@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CaWorkshop.WebUI.Controllers;
 
+[ApiExplorerSettings(IgnoreApi = true)]
 public class OidcConfigurationController : Controller
 {
     private readonly ILogger<OidcConfigurationController> _logger;
