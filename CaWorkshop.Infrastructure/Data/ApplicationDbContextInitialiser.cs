@@ -1,8 +1,8 @@
-﻿using CaWorkshop.WebUI.Models;
+﻿using CaWorkshop.Domain.Entities;
 
 using Microsoft.EntityFrameworkCore;
 
-namespace CaWorkshop.WebUI.Data;
+namespace CaWorkshop.Infrastructure.Data;
 
 public class ApplicationDbContextInitialiser
 {

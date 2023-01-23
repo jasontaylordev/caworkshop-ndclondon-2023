@@ -1,13 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace CaWorkshop.WebUI.Models;
+namespace CaWorkshop.Domain.Entities;
 
 public class TodoList
 {
     public int Id { get; set; }
 
-    [Required]
-    [StringLength(280)]
     public string Title { get; set; } = string.Empty;
 
     public string? Colour { get; set; }
