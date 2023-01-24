@@ -37,7 +37,7 @@ builder.Services.AddHttpContextAccessor();
 
 builder.Services.AddScoped<ICurrentUser, CurrentUser>();
 
-builder.Services.AddLogging(config => 
+builder.Services.AddLogging(config =>
     config.AddSeq());
 
 var app = builder.Build();
@@ -75,8 +75,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
 
-app.UseOpenApi();
-app.UseSwaggerUi3();
+app.UseSwaggerUi3(config =>
+    config.DocumentPath = "/api/v1/specification.json");
 
 app.UseAuthentication();
 app.UseIdentityServer();
