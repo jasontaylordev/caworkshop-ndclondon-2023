@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using CaWorkshop.Domain.Entities;
 using CaWorkshop.Infrastructure.Data;
+using System.ComponentModel.DataAnnotations;
 
 namespace CaWorkshop.WebUI.Controllers
 {
