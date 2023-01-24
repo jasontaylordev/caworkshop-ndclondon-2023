@@ -1,6 +1,5 @@
-﻿using System.Reflection;
-
-using AutoMapper;
+﻿using AutoMapper;
+using System.Reflection;
 
 namespace CaWorkshop.Application.Common.Mappings;
 

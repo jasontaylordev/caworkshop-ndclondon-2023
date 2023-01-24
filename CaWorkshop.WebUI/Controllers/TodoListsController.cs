@@ -30,7 +30,7 @@ namespace CaWorkshop.WebUI.Controllers
             {
                 return BadRequest();
             }
-            
+
             await Mediator.Send(command);
 
             return NoContent();
