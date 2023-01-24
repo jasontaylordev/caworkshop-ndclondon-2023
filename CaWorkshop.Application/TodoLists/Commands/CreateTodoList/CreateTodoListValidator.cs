@@ -1,5 +1,4 @@
-﻿using CaWorkshop.Application.Common.Interfaces;
-
+﻿using CaWorkshop.Application.Common.Services.Data;
 using FluentValidation;
 
 using Microsoft.EntityFrameworkCore;

@@ -1,5 +1,4 @@
 ﻿using CaWorkshop.Application.Common.Behaviours;
-using CaWorkshop.Application.Common.Interfaces;
 
 using FluentValidation;
 

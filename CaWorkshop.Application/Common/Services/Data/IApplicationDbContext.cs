@@ -2,7 +2,7 @@
 
 using Microsoft.EntityFrameworkCore;
 
-namespace CaWorkshop.Application.Common.Interfaces;
+namespace CaWorkshop.Application.Common.Services.Data;
 
 public interface IApplicationDbContext
 {

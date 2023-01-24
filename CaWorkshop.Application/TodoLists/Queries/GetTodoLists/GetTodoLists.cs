@@ -1,8 +1,7 @@
 ﻿using AutoMapper;
 using AutoMapper.QueryableExtensions;
-
-using CaWorkshop.Application.Common.Interfaces;
 using CaWorkshop.Application.Common.Models;
+using CaWorkshop.Application.Common.Services.Data;
 using CaWorkshop.Domain.Entities;
 
 using MediatR;

@@ -1,7 +1,5 @@
 ﻿using Ardalis.GuardClauses;
-
-using CaWorkshop.Application.Common.Interfaces;
-
+using CaWorkshop.Application.Common.Services.Data;
 using MediatR;
 
 using Microsoft.EntityFrameworkCore;

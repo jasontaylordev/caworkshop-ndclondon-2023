@@ -1,11 +1,12 @@
 ﻿using CaWorkshop.WebUI.Filters;
 
 using MediatR;
-
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CaWorkshop.WebUI.Controllers;
 
+[Authorize]
 [ApiController]
 [ApiExceptionFilter]
 [Route("api/[controller]")]

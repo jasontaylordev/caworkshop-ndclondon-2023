@@ -1,8 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿namespace CaWorkshop.Domain.Entities;
 
-namespace CaWorkshop.Domain.Entities;
-
-public class TodoItem
+public class TodoItem : AuditableEntity
 {
     public int Id { get; set; }
 
